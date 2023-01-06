@@ -18,6 +18,7 @@ def whoIsElected(n, k):
         @param k:   the length (in students) of each song.
         @return:    the number of the student that is elected.
         """
+        
         students = []
         
         for i in range(1, n + 1):
