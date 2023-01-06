@@ -8,7 +8,8 @@ def whoIsElected(n, k):
         Starting at the student next to the one that was just removed, the teacher resumes singing and walking around the circle.
         After the teacher is done singing, the next student is removed. The teacher repeats this until only one student is left. 
 
-        A song of length k will result in the teacher walking past k students on each round. The students are numbered 1 to n. The teacher starts at student 1.
+        A song of length k will result in the teacher walking past k students on each round. The students are numbered 1 to n. 
+        The teacher begins at the first student. 
 
         For example, suppose the song length is two (k=2). And there are four students to start with (1,2,3,4). The first 
         student to go would be `2`, after that `4`, and after that `3`. Student `1` would be the next president in this example.
