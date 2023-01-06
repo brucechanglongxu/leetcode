@@ -16,13 +16,16 @@ def whoIsElected(n, k):
         @param n:   the number of students sitting in a circle.
         @param k:   the length (in students) of each song.
         @return:    the number of the student that is elected.
+        """
         students = []
+        
         for i in range(1, n + 1):
             students.append(i)
+        
         for j in range(n - 1): # O(n * k) 
             for i in range(1, k):
                 x = students.pop(0)
                 students.append(x)
             students.pop(0)
-            print(students)
+                
         return students[0]  
