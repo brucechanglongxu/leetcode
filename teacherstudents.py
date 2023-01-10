@@ -1,4 +1,5 @@
 # Asked in Goldman Sachs Strats Interview 
+
 def whoIsElected(n, k):
         """ 
         A group of students are sitting in a circle. The teacher is electing a new class president. 
